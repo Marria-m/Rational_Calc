@@ -309,9 +309,10 @@ int main() {
         // if the user chooses to encrypt the plaintext
         if (choice == "1") {
             // let the user choose any cipher they want to use
-            cout << "1) Affine Cipher" << endl << "2) Polybius Square" << endl << "3) Rail-fence Cipher" << endl << "4) Exit" << endl;
+            cout << "1) Affine Cipher" << endl << "2) Route Cipher" << endl << "3) Atbash Cipher" << endl << "4) Vignere Cipher" << endl << "5) Baconian Cipher" << endl << "6) Simple Substitution Cipher" << endl << "7) Polybius Square Cipher" << endl << "8) Morse Code" << endl << "9) XOR Cipher" << endl << "10) Rail-fence Cipher" << endl << "11) return" << endl;
             cin >> choose;
 
+            // Affine Cipher Marie
             if (choose == "1"){
                 // welcome message
                 cout << "welcome to Affine Cipher\n" << endl;
@@ -367,7 +368,33 @@ int main() {
                 encrypt_Affine_Cipher(statement, factor, sub_add);
             }
 
-            else if (choose == "2") {
+            // Route Cipher Marie
+            else if (choose == "2"){
+                continue;
+            }
+
+            // Atbash Cipher Rahma
+            else if (choose == "3"){
+                continue;
+            }
+
+            // Vignere Cipher Marie
+            else if (choose == "4"){
+                continue;
+            }
+
+            // Baconian Cipher
+            else if (choose == "5"){
+                continue;
+            }
+
+            // Simple Substitution Cipher
+            else if (choose == "6"){
+                continue;
+            }
+
+            // Polybius Square Cipher Rahma
+            else if (choose == "7") {
                 // Ignore the newline character in the input buffer
                 cin.ignore();
 
@@ -383,23 +410,42 @@ int main() {
                     cout << "Cipher text: " << ciphertext << endl;
                 }
             }
-            else if (choose == "3"){
+                
+            // Morse Code Marie
+            else if (choose == "8"){
+                continue;
+            }
+
+            // XOR Cipher 
+            else if (choose == "9"){
+                continue;
+            }
+
+            // Rail-fence Cipher Doha
+            else if (choose == "10"){
                 cout << "\n===============\n";
                 cout << "Note :- the key value is 3\n"; // 3 rows
                 cipher_Rail_fence();
             }
-            else if (choose == "4"){
+
+            // exiting
+            else if (choose == "11"){
                 continue;
             }
+                
+            // invalid choice
             else {
                 cout << "please enter a valid choice\n";
             }
+        }
 
-        } else if (choice == "2") {
+        // Decryption
+        else if (choice == "2") {
             // let the user choose any cipher they want to use
-            cout << "1) Affine Cipher" << endl << "2) Polybius Square" << endl << "3) Rail-fence Cipher" << endl << "4) Exit" << endl;
+            cout << "1) Affine Cipher" << endl << "2) Route Cipher" << endl << "3) Atbash Cipher" << endl << "4) Vignere Cipher" << endl << "5) Baconian Cipher" << endl << "6) Simple Substitution Cipher" << endl << "7) Polybius Square Cipher" << endl << "8) Morse Code" << endl << "9) XOR Cipher" << endl << "10) Rail-fence Cipher" << endl << "11) return" << endl;
             cin >> choose;
 
+            // Affine Cipher Marie
             if (choose == "1"){
                 // welcome message
                 cout << "welcome to Affine Cipher\n" << endl;
@@ -454,7 +500,34 @@ int main() {
                 }
                 decrypt_Affine_Cipher(statement, sub_add, coefficient);
             }
+
+            // Route Cipher Marie
             else if (choose == "2"){
+                continue;
+            }
+
+            // Atbash Cipher Rahma
+            else if (choose == "3"){
+                continue;
+            }
+
+            // Vignere Cipher Marie
+            else if (choose == "4"){
+                continue;
+            }
+
+            // Baconian Cipher
+            else if (choose == "5"){
+                continue;
+            }
+
+            // Simple Substitution Cipher
+            else if (choose == "6"){
+                continue;
+            }
+
+            // Polybius Square Cipher Rahma
+            else if (choose == "7"){
                 // ignore the newline character in the input buffer
                 cin.ignore();
 
@@ -470,12 +543,26 @@ int main() {
                     cout << "Plain text: " << plaintext << endl;
                 }
             }
-            else if (choose == "3"){
+
+            // Morse Code Marie
+            else if (choose == "8"){
+                continue;
+            }
+
+            // XOR Cipher 
+            else if (choose == "9"){
+                continue;
+            }
+
+            // Rail-fence Cipher Doha
+            else if (choose == "10"){
                 cout << "\n===============\n";
                 cout << "Note :- the key value is 3\n"; // 3 rows
                 decipher_Rail_fence();
             }
-            else if (choose == "4"){
+
+            // Exiting 
+            else if (choose == "11"){
                 continue;
             }
             else {
