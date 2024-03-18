@@ -1,3 +1,25 @@
+// File: CS112_A2_T3_SectionNum_20231160_20231089_20231056.cpp
+
+// Purpose: This code allows the user to enter two fraction numbers or integer numbers or mix
+//          and enter the operation they want to do.
+//          then the program calculate and display the result.
+//          the user can enter an endless equations, it will continue till the user enter "exit" the program will stop.
+
+// Author: Mariam Ehab Hassan
+//         Doha Yasser
+//         Rahma Bahgat
+
+//Section: 25
+
+// Emails: mariamehab135721@gmail.com
+
+// ID1: 20231160 – regex (validation), converting to rational
+
+// ID2: 20231089 – Division, subtraction
+
+// ID3: 20231056 – multiplication, addition
+
+
 #include <iostream>
 #include <string>
 #include <regex>
