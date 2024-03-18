@@ -6,12 +6,13 @@
 //          the user can enter an endless equations, it will continue till the user enter "exit" the program will stop.
 
 // Author: Mariam Ehab Hassan
-//         Doha Yasser
-//         Rahma Bahgat
+//         Doha Yasser sayed
+//         Rahma Bahgat mohammed
 
-//Section: 25
+// Section: 25
 
 // Emails: mariamehab135721@gmail.com
+//         rahmabahgat455@gmail.com
 
 // ID1: 20231160 – regex (validation), converting to rational
 
@@ -259,7 +260,7 @@ int main() {
             num2 = stoi(str_num2);
             dom2 = stoi(str_dom2);
 
-            
+
             // Rahma Bahgat 20231056
             if (opr == "+") {
                 new_dom = dom1 * dom2;
